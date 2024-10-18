@@ -4,7 +4,6 @@ from pydantic import EmailStr
 
 class UserRead(schemas.BaseUser[int]):
     """Base User model."""
-
     id: int
     email: str
     username: str
